@@ -6,9 +6,26 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "sqlite3": "^5.0.8"
   },
-  "author": "pmaiko",
-  "license": "ISC"
+  "devDependencies": {
+    "cache-manager": "^4.1.0",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
+    "sinon": "^14.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmaiko/cache-manager-sqlite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmaiko/cache-manager-sqlite/issues"
+  },
+  "homepage": "https://github.com/pmaiko/cache-manager-sqlite#readme"
 }
