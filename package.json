@@ -1,0 +1,14 @@
+{
+  "name": "@pmaiko/cache-manager-sqlite",
+  "version": "1.0.0",
+  "description": "A modern SQlite cache store for [node-cache-manager](https://github.com/BryanDonovan/node-cache-manager). Featuring:",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pmaiko",
+  "license": "ISC"
+}
